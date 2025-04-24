@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-26 05:04:55 "/>
+        <attribute name="created" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAyLTI2OyIwNDoxOTo0MiAiOzI0MDE="/>
+        <attribute name="edited" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAyLTI2OyIwNTowNDo1NSAiOzQ7MjUxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="P1" type="Real" array="False" size=""/>
+            <declare name="P2" type="Real" array="False" size=""/>
+            <declare name="P3" type="Real" array="False" size=""/>
+            <declare name="P4" type="Real" array="False" size=""/>
+            <declare name="Media" type="Real" array="False" size=""/>
+            <output expression="&quot;Seja bem vindo&quot;" newline="True"/>
+            <output expression="&quot;Entre com a nota P1&quot;" newline="True"/>
+            <input variable="P1"/>
+            <output expression="&quot;Entre com a nota P2&quot;" newline="True"/>
+            <input variable="P2"/>
+            <output expression="&quot;Entre com a nota P3&quot;" newline="True"/>
+            <input variable="P3"/>
+            <output expression="&quot;Entre com a nota P4&quot;" newline="True"/>
+            <input variable="P4"/>
+            <output expression="&quot;A media final do aluno &#233;&quot;" newline="True"/>
+            <assign variable="media" expression="(P1+P2+P3+P4)/4"/>
+            <output expression="Media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

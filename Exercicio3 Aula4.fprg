@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-20 09:36:04 "/>
+        <attribute name="created" value="YWx1bm87RkFURUNMQUIyMzsyMDI1LTAzLTEyOyIwNjoyMzoyNyAiOzIzOTY="/>
+        <attribute name="edited" value="YWx1bm87RkFURUNMQUIyMzsyMDI1LTAzLTE5OyIwNjo0ODoxOCAiOzM7MjUyMA=="/>
+        <attribute name="edited" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDMtMjA7IjA5OjM2OjA0ICI7MjsyODk3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N" type="Integer" array="False" size=""/>
+            <declare name="VariavelA" type="Integer" array="False" size=""/>
+            <declare name="VariavelB" type="Integer" array="False" size=""/>
+            <assign variable="VariavelA" expression="0"/>
+            <assign variable="VariavelB" expression="0"/>
+            <input variable="N"/>
+            <if expression="N&gt;=0">
+                <then>
+                    <output expression="&quot;Ae for Positivo digita A&quot;" newline="True"/>
+                    <assign variable="VariavelA" expression="N"/>
+                </then>
+                <else>
+                    <output expression="&quot;Se for Negativo digita B&quot;" newline="True"/>
+                    <assign variable="VariavelB" expression="N"/>
+                </else>
+            </if>
+            <output expression="&quot;O valor da Vari&#225;vel A &#233;&quot;" newline="True"/>
+            <output expression="VariavelA" newline="True"/>
+            <output expression="&quot;O valor da Vari&#225;vel B &#233;&quot;" newline="True"/>
+            <output expression="VariavelB" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

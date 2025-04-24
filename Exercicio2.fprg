@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="edvgo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-06 02:03:15 "/>
+        <attribute name="created" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDMtMDU7IjExOjQ1OjIyICI7Mjc4NA=="/>
+        <attribute name="edited" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDMtMDU7IjEyOjMxOjQxICI7NzsyODk1"/>
+        <attribute name="edited" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAzLTA2OyIwMjowMzoxNSAiOzM7MjUwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N1" type="Real" array="False" size=""/>
+            <declare name="N2" type="Real" array="False" size=""/>
+            <declare name="N3" type="Real" array="False" size=""/>
+            <declare name="N4" type="Real" array="False" size=""/>
+            <declare name="Soma" type="Real" array="False" size=""/>
+            <output expression="&quot;Entre com o quadrado 1&quot;" newline="True"/>
+            <input variable="N1"/>
+            <output expression="&quot;Entre com o quadrado 2&quot;" newline="True"/>
+            <input variable="N2"/>
+            <output expression="&quot;Entre com o quadrado 3&quot;" newline="True"/>
+            <input variable="N3"/>
+            <output expression="&quot;Entre com o quadrado 4&quot;" newline="True"/>
+            <input variable="N4"/>
+            <assign variable="Soma" expression="N1+N2+N3+N4"/>
+            <output expression="Soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

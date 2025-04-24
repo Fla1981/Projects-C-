@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="edvgo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-15 11:01:03 "/>
+        <attribute name="created" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDQtMTU7IjExOjAwOjA5ICI7Mjc4Mg=="/>
+        <attribute name="edited" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDQtMTU7IjExOjAxOjAzICI7MTsyODg1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <while expression=""/>
+        </body>
+    </function>
+</flowgorithm>

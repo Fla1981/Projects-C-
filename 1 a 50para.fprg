@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="edvgo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-19 09:05:30 "/>
+        <attribute name="created" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDMtMTk7IjA5OjAwOjM5ICI7Mjc5NQ=="/>
+        <attribute name="edited" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDMtMTk7IjA5OjA1OjMwICI7MTsyODk5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="DebContador" type="Integer" array="False" size=""/>
+            <declare name="Numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;Entre com um numero:&quot;" newline="True"/>
+            <input variable="Numero"/>
+            <for variable="DebContador" start="1" end="50" direction="inc" step="10">
+                <output expression="DebContador &amp;&quot;.Multiplo de 10&quot;" newline="True"/>
+                <assign variable="DebContador" expression="DebContador+1"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

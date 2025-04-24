@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-19 04:47:02 "/>
+        <attribute name="created" value="YWx1bm87RkFURUNMQUIyMzsyMDI1LTAzLTE5OyIwNDowMTowMiAiOzIzOTA="/>
+        <attribute name="edited" value="YWx1bm87RkFURUNMQUIyMzsyMDI1LTAzLTE5OyIwNDo0NzowMiAiOzM7MjUxMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N" type="Integer" array="False" size=""/>
+            <output expression="&quot;Insira um N&#250;mero&quot;" newline="True"/>
+            <input variable="N"/>
+            <declare name="Par" type="Integer" array="False" size=""/>
+            <declare name="Impar" type="Integer" array="False" size=""/>
+            <if expression="N%2==0">
+                <then>
+                    <output expression="&quot;Deu Par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Deu Impar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

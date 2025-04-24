@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-06 03:00:15 "/>
+        <attribute name="created" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAzLTA2OyIwMjo1MjoxOSAiOzIzOTk="/>
+        <attribute name="edited" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAzLTA2OyIwMzowMDoxNSAiOzQ7MjUwMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Quilometros" type="Real" array="False" size=""/>
+            <declare name="Litros" type="Real" array="False" size=""/>
+            <declare name="Consumo" type="Real" array="False" size=""/>
+            <output expression="&quot;Entre com quilometros de Combustivel abastecido&quot;" newline="True"/>
+            <input variable="Quilometros"/>
+            <output expression="&quot;Leia quantos quilometros foram percorridos&quot;" newline="True"/>
+            <input variable="Litros"/>
+            <assign variable="Consumo" expression="(Quilometros*Litros)"/>
+            <output expression="Consumo" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

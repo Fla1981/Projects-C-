@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-19 05:01:18 "/>
+        <attribute name="created" value="YWx1bm87RkFURUNMQUIyMjsyMDI1LTAzLTE5OyIwMzo0NDoyNCAiOzIzOTk="/>
+        <attribute name="edited" value="YWx1bm87RkFURUNMQUIyMjsyMDI1LTAzLTE5OyIwNDowNTo1MCAiOzE7MjUwNA=="/>
+        <attribute name="edited" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAzLTE5OyIwNTowMToxOCAiOzc7MjUxMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="PesoIdeal" type="Real" array="False" size=""/>
+            <declare name="H" type="Real" array="False" size=""/>
+            <declare name="Sexo" type="String" array="False" size=""/>
+            <output expression="&quot;altura em metros&quot;" newline="True"/>
+            <input variable="H"/>
+            <output expression="&quot;digite M para masculino e F para feminino&quot;" newline="True"/>
+            <input variable="Sexo"/>
+            <if expression="Sexo= &quot;M&quot;or Sexo =&quot;M&quot;">
+                <then>
+                    <assign variable="PesoIdeal" expression="(72.7*H) -58"/>
+                    <output expression="&quot;O peso e...&quot;" newline="False"/>
+                    <output expression="PesoIdeal" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Sexo= &quot;F&quot; or Sexo= &quot;f&quot;">
+                        <then>
+                            <assign variable="pesoideal" expression="(62.7*H)-44.7"/>
+                            <output expression="&quot;O peso e...&quot;" newline="False"/>
+                            <output expression="PesoIdeal" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Sexo invalido&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

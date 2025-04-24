@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="edvgo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-15 10:46:11 "/>
+        <attribute name="created" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDQtMTU7IjEwOjQxOjAwICI7Mjc3Nw=="/>
+        <attribute name="edited" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDQtMTU7IjEwOjQ2OjExICI7MzsyODk0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="X" type="Integer" array="False" size=""/>
+            <comment text="Exemplo Metodo de programa&#231;&#227;o Fa&#231;a(DoWhile)Completo"/>
+            <assign variable="X" expression="1"/>
+            <do expression="X&lt;=10">
+                <output expression="X" newline="True"/>
+                <assign variable="X" expression="X+1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

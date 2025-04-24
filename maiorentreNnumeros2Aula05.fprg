@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="edvgo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-19 04:53:26 "/>
+        <attribute name="created" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDMtMTk7IjA5OjI0OjMwICI7Mjc5Mg=="/>
+        <attribute name="edited" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDMtMTk7IjA5OjUzOjM3ICI7MTE7Mjk1OA=="/>
+        <attribute name="edited" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAzLTE5OyIwNDo1MzoyNiAiOzQ7MjUxNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Maior" type="Integer" array="False" size=""/>
+            <declare name="entradaValor" type="Integer" array="False" size=""/>
+            <declare name="N" type="Integer" array="False" size=""/>
+            <output expression="&quot;Determine o maior entre N numeros:&quot;" newline="True"/>
+            <input variable="N"/>
+            <assign variable="entradaValor" expression="0"/>
+            <do expression="entradaValor=0">
+                <assign variable="Maior" expression="N*entradaValor"/>
+                <output expression="entradaValor &amp;&quot;N&quot; &amp; Maior &amp;&quot;=&quot; &amp; N" newline="True"/>
+                <assign variable="Maior" expression="Maior+0"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

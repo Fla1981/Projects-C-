@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-26 06:29:10 "/>
+        <attribute name="created" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAyLTI2OyIwNToyODo0NyAiOzI0MDc="/>
+        <attribute name="edited" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAyLTI2OyIwNjoyOToxMCAiOzE7MjUwNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="CD" type="Integer" array="False" size=""/>
+            <declare name="VD" type="Integer" array="False" size=""/>
+            <declare name="Cota" type="Real" array="False" size=""/>
+            <output expression="&quot;Entre como valor cotacao dolar&quot;" newline="True"/>
+            <input variable="CD"/>
+            <output expression="&quot;Entre com o valor do dolar&quot;" newline="True"/>
+            <input variable="VD"/>
+            <assign variable="cota" expression="(CD*VD)"/>
+            <output expression="Cota" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

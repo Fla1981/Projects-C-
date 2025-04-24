@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-12 06:04:17 "/>
+        <attribute name="created" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAzLTEyOyIwNjowMzozMyAiOzIzOTI="/>
+        <attribute name="edited" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAzLTEyOyIwNjowNDoxNyAiOzE7MjUwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <do expression="">
+                <output expression="&quot;Processamento&quot;" newline="True"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

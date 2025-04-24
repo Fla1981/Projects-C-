@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-12 06:20:21 "/>
+        <attribute name="created" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAzLTEyOyIwNjoxNDozMiAiOzIzOTM="/>
+        <attribute name="edited" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAzLTEyOyIwNjoyMDoyMSAiOzE7MjQ5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Qual o valor conta?&quot;" newline="True"/>
+            <declare name="Dinheiro" type="Real" array="False" size=""/>
+            <input variable="Dinheiro"/>
+            <if expression="Dinheiro&lt;=100">
+                <then>
+                    <output expression="&quot;Vou ao cinema&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Nao vou ao cinema&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="edvgo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-19 09:18:21 "/>
+        <attribute name="created" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDMtMTg7IjEwOjU1OjEwICI7Mjc4NQ=="/>
+        <attribute name="edited" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDMtMTk7IjA5OjE4OjIxICI7NjsyOTA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="VariavelContador" type="Integer" array="False" size=""/>
+            <declare name="VariavelResultado" type="Integer" array="False" size=""/>
+            <declare name="VariavelTabuada" type="Integer" array="False" size=""/>
+            <output expression="&quot;Entre com a tabuada:&quot;" newline="True"/>
+            <input variable="VariavelTabuada"/>
+            <assign variable="VariavelContador" expression="0"/>
+            <do expression="VariavelContador&lt;=10">
+                <assign variable="VariavelResultado" expression="VariavelTabuada* VariavelContador"/>
+                <output expression="VariavelTabuada &amp;&quot;N&quot; &amp; VariavelContador &amp;&quot;=&quot; &amp; VariavelResultado" newline="True"/>
+                <assign variable="VariavelContador" expression="VariavelContador+1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

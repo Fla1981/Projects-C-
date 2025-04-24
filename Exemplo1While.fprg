@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-12 05:51:19 "/>
+        <attribute name="created" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAzLTEyOyIwNTo0NTo0NSAiOzI0MDA="/>
+        <attribute name="edited" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAzLTEyOyIwNTo1MToxOSAiOzE7MjUwNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="X" type="Integer" array="False" size=""/>
+            <assign variable="X" expression="X &lt;-1"/>
+            <do expression="X&lt;=10">
+                <comment text="While"/>
+                <output expression="&quot;Escrever X&quot;" newline="True"/>
+                <assign variable="X" expression="X&lt;- X+1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

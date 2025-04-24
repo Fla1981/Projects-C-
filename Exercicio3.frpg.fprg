@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-06 09:39:27 "/>
+        <attribute name="created" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAzLTA2OyIwMjowMzozMSAiOzIzODk="/>
+        <attribute name="edited" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAzLTA2OyIwMjoxODoxMiAiOzg7MjUwOQ=="/>
+        <attribute name="edited" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDMtMDY7IjA5OjM5OjI3ICI7NjsyOTEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="IdentificacaoVendedor" type="Real" array="False" size=""/>
+            <declare name="CodigoPeca" type="Real" array="False" size=""/>
+            <declare name="PrecoPeca" type="Real" array="False" size=""/>
+            <declare name="Comissao" type="Real" array="False" size=""/>
+            <declare name="QuantidadeVendida" type="Real" array="False" size=""/>
+            <output expression="&quot;Entre com a identifica&#231;ao do identificador:&quot;" newline="True"/>
+            <input variable="IdentificacaoVendedor"/>
+            <output expression="&quot;Entre com o codigo da Peca:&quot;" newline="True"/>
+            <input variable="CodigoPeca"/>
+            <output expression="&quot;Entre com o preco da peca:&quot;" newline="True"/>
+            <input variable="PrecoPeca"/>
+            <output expression="&quot;Entre com a Quantidade Vendida:&quot;" newline="True"/>
+            <input variable="QuantidadeVendida"/>
+            <assign variable="Comissao" expression="(PrecoPeca*QuantidadeVendida*0.05)"/>
+            <output expression="Comissao" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

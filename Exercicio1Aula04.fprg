@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-12 05:13:16 "/>
+        <attribute name="created" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAzLTEyOyIwNDoyMjo1NiAiOzIzOTY="/>
+        <attribute name="edited" value="YWx1bm87RkFURUNMQUIyNDsyMDI1LTAzLTEyOyIwNToxMzoxNiAiOzI7MjUwMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Area" type="Real" array="False" size=""/>
+            <declare name="R" type="Real" array="False" size=""/>
+            <output expression="&quot;Entre com o valor do raio do Circulo:&quot;" newline="True"/>
+            <input variable="R"/>
+            <if expression="R&gt;=0">
+                <then>
+                    <assign variable="Area" expression="(3.14*R)"/>
+                    <output expression="&quot;O valor sera positivo:&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Nao foi possivel informar o calculo:&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

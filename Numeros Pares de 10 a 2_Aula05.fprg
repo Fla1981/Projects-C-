@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="edvgo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-20 11:07:02 "/>
+        <attribute name="created" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDMtMjA7IjA5OjI5OjIzICI7Mjc5MQ=="/>
+        <attribute name="edited" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDMtMjA7IjExOjA3OjAyICI7MjI7MjkzNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N" type="Integer" array="False" size=""/>
+            <declare name="Pares" type="Integer" array="False" size=""/>
+            <declare name="DEB" type="Integer" array="False" size=""/>
+            <output expression="&quot;Entre com os numeros&quot;" newline="True"/>
+            <input variable="N"/>
+            <assign variable="Pares" expression="2"/>
+            <while expression="Pares&lt;=2 or Pares&lt;=10">
+                <assign variable="DEB" expression="Pares+N"/>
+                <output expression="&quot;O resultado sera;&quot;" newline="True"/>
+                <assign variable="DEB" expression="DEB+2"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

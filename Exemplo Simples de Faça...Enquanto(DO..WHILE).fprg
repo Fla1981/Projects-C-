@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="edvgo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-15 10:47:49 "/>
+        <attribute name="created" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDQtMTU7IjEwOjQ2OjE3ICI7Mjc5MA=="/>
+        <attribute name="edited" value="ZWR2Z287TEFQVE9QLTZSSkpKTEM2OzIwMjUtMDQtMTU7IjEwOjQ3OjQ5ICI7MTsyOTA0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Exemplo Simples de Fa&#231;a...Enquanto(DO..WHILE)"/>
+            <do expression="">
+                <output expression="&quot;Processamento&quot;" newline="True"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
