@@ -1,2 +1,2 @@
 # Projects-C-
-Este são exercios da linguagem de programaçao C e flohgoritm
+Este são exercicios da linguagem de programaçao C e flohgoritm/Exemplos
